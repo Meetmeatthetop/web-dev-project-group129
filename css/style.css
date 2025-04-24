@@ -1,0 +1,26 @@
+
+:root {
+    --primary-color: #222222;
+    --secondary-color: #e6ba38;
+    --background-color: white;
+    --font-family: 'Arial', sans-serif;
+    --font-size-base: 16px;
+    --font-size-large: 2em;
+    --font-size-xlarge: 9em;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --spacing-large: 50px;
+    --spacing-small: 10px;
+}
+
+/* Global Styles */
+body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    margin: var(--spacing-large);
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    position: relative;
+    margin: 0px;
+}
+
