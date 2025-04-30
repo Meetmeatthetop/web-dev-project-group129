@@ -1,109 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Watson - UI Designer & Web Developer</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="navbar__logo">John Watson</div>
-        <ul class="navbar__menu">
-            <li><a href="#about" class="navbar__link">About</a></li>
-            <li><a href="#services" class="navbar__link">Services</a></li>
-            <li><a href="#skills" class="navbar__link">Skills</a></li>
-            <li><a href="#contact" class="navbar__link">Contact</a></li>
-        </ul>
-        <a href="#hire" class="navbar__cta">Hire Me</a>
-    </nav>
+
 
     <!-- Hero Section. This is the first page code, the one with the transparent background image -->
-    <header class="hero" style="background-image: url('https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%201.jpg')">
+    <header class="hero">
         <div class="hero__content">
-            <div class="hero__text">
-                <h1 class="hero__title">Hi, I'm John Watson</h1>
-                <h2 class="hero__subtitle">Lead UI Designer & Web Developer Based in UK</h2>
-                <p class="hero__description">
-                    I love graphic design and photography and have been working on my portfolio since 2016.
-                    I can give your business a new creative start right away! Contact me and we will discuss your projects!
-                </p>
-                <div class="hero__buttons">
-                    <a href="#hire" class="btn btn--primary">Hire Me</a>
-                    <a href="#portfolio" class="btn btn--secondary">My Portfolio</a>
+            <nav class="navbar">
+                <div class="navbar_logo_wrapper">
+                    <img class="logo" src="../images/UILOGO.png" alt="">
                 </div>
-            </div>
-            <div class="hero__image">
-                <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%201.jpg" alt="John Watson" class="hero__photo">
+                <ul class="navbar_menu">
+                    <li><a href="#about" class="navbar__link">About</a></li>
+                    <li><a href="#services" class="navbar__link">Services</a></li>
+                    <li><a href="#skills" class="navbar__link">Skills</a></li>
+                    <li><a href="#contact" class="navbar__link">Contact</a></li>
+                </ul>
+                <div class="nav__side__button">
+                    <button class="btn__primary">Hire me</button>
+                    <img src="../images/magnifying-glass.png" alt="Search">
+                    <img src="../images/sleep-mode.png" alt="">
+                </div>
+            </nav>
+            <div class="heros__wrapper">
+                <div class="hero__text">
+                    <h1 class="hero__title">Hi, I'm John Watson</h1>
+                    <h2 class="hero__subtitle">Web De</h2>
+                    <p class="hero__description">
+                        I love graphic design and photography and have been working on my portfolio since 2016.
+                        I can give your business a new creative start right away! Contact me and we will discuss your
+                        projects!
+                    </p>
+
+                    <div class="hero__buttons">
+                        <button class="btn__primary">Hire me</button>
+                        <button class="btn__secondary">My Portfolio</button>
+                    </div>
+
+                </div>
+                <div class="hero__image__wrapper">
+                    <img class="heros__image" src="../images/mrh.png" alt="">
+                </div>
             </div>
         </div>
     </header>
 
     <!-- About/Biography Section -->
     <section class="about" id="about">
-        <div class="about__image">
-            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Woman%20model%20designer%20photo.jpg" alt="John Watson Portrait" height="600" width="600" class="about__photo">
+        <div class="about__image__wrapper">
+            <img class="about__image" src="../images/mrh.png">
         </div>
         <div class="about__details">
-            <h3 class="about__subtitle">My Biography</h3>
+            <h3 class="about__subtitle">MY BIOGRAPHY</h3>
             <h2 class="about__title">A Lead UI Designer & Web Developer Based In UK</h2>
             <p class="about__description">
                 I love graphic design and photography and have been working on my portfolio since 2016.
                 I can give your business a new creative start right away! Contact me and we will discuss your projects!
             </p>
-            <ul class="about__info">
-                <li><strong>Name:</strong> John Watson</li>
-                <li><strong>From:</strong> London, UK</li>
-                <li><strong>Email:</strong> example@mail.com</li>
-                <li><strong>Phone:</strong> +21 234 567 8901</li>
-            </ul>
-            <div class="about__socials">
-                <a href="#" class="social social--linkedin">LinkedIn</a>
-                <a href="#" class="social social--behance">Behance</a>
-                <a href="#" class="social social--twitter">Twitter</a>
-                <a href="#" class="social social--email">Email</a>
-            </div>
-            <div class="about__actions">
-                <a href="#hire" class="btn btn--primary">Hire Me</a>
-                <!-- CV is needed here-->
-                <a href="cv.pdf" class="btn btn--secondary">Download CV</a>
-            </div>
-        </div>
-    </section>
+            <div id="about__info">
+                <div>
+                    <ul class="about__info">
+                        <li><strong>Name:</strong> John Watson</li>
+                        <li><strong>Email:</strong> example@mail.com</li>
 
-    <!-- Skillls Section -->
-    <section class="skills" id="skills">
-        <h3 class="skills__subtitle">My Skills</h3>
-        <h2 class="skills__title">My Featured Skills</h2>
-        <div class="skills__content">
-            <div class="skills__images">
-               <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/split-img-1.png" alt="Design Work" height="600" width="600" class="skills__photo">
-               <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/split-img-2.png" alt="Portfolio Work" height="600" width="600" class="skills__photo">
-            </div>
-            <div class="skills__list">
-                <p class="skills__description">
-                    I specialize in branding and strategy, and am passionate about creating awesome portfolio work.
-                    I am always ready to impress the audience with my creativity.
-                </p>
-                <div class="skills__bar">
-                    <span class="skills__label">UI/UX Design</span>
-                    <div class="skills__progress skills__progress--uiux"></div>
+                    </ul>
                 </div>
-                <div class="skills__bar">
-                    <span class="skills__label">Ideas & Technology</span>
-                    <div class="skills__progress skills__progress--ideas"></div>
-                </div>
-                <div class="skills__bar">
-                    <span class="skills__label">Branding Design</span>
-                    <div class="skills__progress skills__progress--branding"></div>
-                </div>
-                <div class="skills__bar">
-                    <span class="skills__label">Responsive Web Design</span>
-                    <div class="skills__progress skills__progress--responsive"></div>
+                <div>
+                    <ul class="about__info">
+                        <li><strong>From:</strong> London, UK</li>
+                        <li><strong>Phone:</strong> +21 234 567 8901</li>
+                    </ul>
                 </div>
             </div>
+
+            <div class="about__socials">
+                <div>
+                    <h6>Follow me on</h6>
+                </div>
+                <div>
+                    <img src="../images/behance.png" alt="Behance">
+                    <img src="../images/linkedin.png" alt="Linkedin">
+                    <img src="../images/facebook.png" alt="Facebook">
+                    <img src="../images/twitter.png" alt="Twitter">
+                </div>
+            </div>
+            <div class="action_buttons">
+                <button class="btn_primary">
+                    <a href="hire">Hire me</a>
+                </button>
+                <button class="btn_secondary">
+                    <a href="cv.pdf">Download CV</a>
+                </button>
+            </div>
+
+            
         </div>
     </section>
 
@@ -112,28 +112,36 @@
         <h2 class="services__title">What I Do For You</h2>
         <div class="services__list">
             <div class="service">
-                <div class="service__icon service__icon--web"></div>
+                <div class="service__icon service__icon--web">
+                    <img class="web-programming" src="../images/web-programming.png" alt="">
+                </div>
                 <h3 class="service__title">Web Development</h3>
                 <p class="service__description">
                     Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.
                 </p>
             </div>
             <div class="service">
-                <div class="service__icon service__icon--app"></div>
+                <div class="service__icon service__icon--app">
+                    <img class="app-store" src="../images/app-store.png" alt="">
+                </div>
                 <h3 class="service__title">App Development</h3>
                 <p class="service__description">
                     Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.
                 </p>
             </div>
             <div class="service">
-                <div class="service__icon service__icon--photo"></div>
+                <div class="service__icon service__icon--photo">
+                    <img class="photo-camera" src="../images/photo-camera.png" alt="">
+                </div>
                 <h3 class="service__title">Photography</h3>
                 <p class="service__description">
                     Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.
                 </p>
             </div>
         </div>
-        <a href="#more-services" class="services__more">More Services &rarr;</a>
+        <div class="services__more">
+            <a href="#more-services" class="services__more">More Services &rarr;</a>
+        </div>
     </section>
 
     <!-- Features and Stats Section -->
@@ -144,48 +152,55 @@
                     <span class="feature__icon feature__icon--web"></span>
                     <div>
                         <h4 class="feature__title">Web Development</h4>
-                        <p class="feature__desc">Lorem ipsum viverra libero set. Pellentesque ut justo, in ligula at.</p>
+                        <p class="feature__desc">Lorem ipsum viverra libero set. Pellentesque ut justo, in ligula at.
+                        </p>
                     </div>
                 </div>
                 <div class="feature">
                     <span class="feature__icon feature__icon--design"></span>
                     <div>
                         <h4 class="feature__title">Design Trends</h4>
-                        <p class="feature__desc">Lorem ipsum viverra libero set. Pellentesque ut justo, in ligula at.</p>
+                        <p class="feature__desc">Lorem ipsum viverra libero set. Pellentesque ut justo, in ligula at.
+                        </p>
                     </div>
                 </div>
                 <div class="feature">
                     <span class="feature__icon feature__icon--research"></span>
                     <div>
                         <h4 class="feature__title">Research & Analysis</h4>
-                        <p class="feature__desc">Lorem ipsum viverra libero set. Pellentesque ut justo, in ligula at.</p>
+                        <p class="feature__desc">Lorem ipsum viverra libero set. Pellentesque ut justo, in ligula at.
+                        </p>
                     </div>
                 </div>
                 <div class="feature">
                     <span class="feature__icon feature__icon--support"></span>
                     <div>
                         <h4 class="feature__title">Customer support</h4>
-                        <p class="feature__desc">Lorem ipsum viverra libero set. Pellentesque ut justo, in ligula at.</p>
+                        <p class="feature__desc">Lorem ipsum viverra libero set. Pellentesque ut justo, in ligula at.
+                        </p>
                     </div>
                 </div>
                 <div class="feature">
                     <span class="feature__icon feature__icon--responsive"></span>
                     <div>
                         <h4 class="feature__title">Responsive design</h4>
-                        <p class="feature__desc">Lorem ipsum viverra libero set. Pellentesque ut justo, in ligula at.</p>
+                        <p class="feature__desc">Lorem ipsum viverra libero set. Pellentesque ut justo, in ligula at.
+                        </p>
                     </div>
                 </div>
                 <div class="feature">
                     <span class="feature__icon feature__icon--psd"></span>
                     <div>
                         <h4 class="feature__title">PSD Design</h4>
-                        <p class="feature__desc">Lorem ipsum viverra libero set. Pellentesque ut justo, in ligula at.</p>
+                        <p class="feature__desc">Lorem ipsum viverra libero set. Pellentesque ut justo, in ligula at.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="features-stats__image">
-                <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Woman%20model%20designer%20photo.jpg" alt="Profile Photo" height="600" width="600" class="features-stats__photo">
-            </div>
+            <!-- <div class="features-stats__image">
+                <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Woman%20model%20designer%20photo.jpg"
+                    alt="Profile Photo" height="600" width="600" class="features-stats__photo">
+            </div> -->
         </div>
         <div class="stats">
             <div class="stat">
@@ -208,23 +223,33 @@
     </section>
 
     <!-- Portfolio or Gallery Section -->
-    <section class="portfolio-gallery">
+    <!-- <section class="portfolio-gallery">
         <h2 class="portfolio-gallery__title">My Success Work</h2>
         <div class="portfolio-gallery__grid">
-            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%201.jpg" alt="Work 1" height="600" width="600" class="portfolio-gallery__item">
-            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%202.jpg" alt="Work 2" height="600" width="600" class="portfolio-gallery__item">
-            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%203.jpg" alt="Work 3" height="600" width="600" class="portfolio-gallery__item">
-            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%204.jpg" alt="Work 4" height="600" width="600" class="portfolio-gallery__item">
-            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%205.jpg" alt="Work 5" height="600" width="600" class="portfolio-gallery__item">
-            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%206.jpg" alt="Work 6" height="600" width="600" class="portfolio-gallery__item">
+            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%201.jpg"
+                alt="Work 1" height="600" width="600" class="portfolio-gallery__item">
+            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%202.jpg"
+                alt="Work 2" height="600" width="600" class="portfolio-gallery__item">
+            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%203.jpg"
+                alt="Work 3" height="600" width="600" class="portfolio-gallery__item">
+            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%204.jpg"
+                alt="Work 4" height="600" width="600" class="portfolio-gallery__item">
+            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%205.jpg"
+                alt="Work 5" height="600" width="600" class="portfolio-gallery__item">
+            <img src="https://raw.githubusercontent.com/Cypher-star-dev/Practice/main/images/Grid%20photo%206.jpg"
+                alt="Work 6" height="600" width="600" class="portfolio-gallery__item">
         </div>
         <div class="portfolio-gallery__brands">
-            <img src="https://github.com/Cypher-star-dev/Practice/blob/main/images/Subaru%20WRX%20logo.jpg" alt="Brand 1" height="600" width="600" class="portfolio-gallery__brand">
-            <img src="https://github.com/Cypher-star-dev/Practice/blob/main/images/Mitsubishi%20logo.jpg" alt="Brand 2" height="600" width="600" class="portfolio-gallery__brand">
-            <img src="https://github.com/Cypher-star-dev/Practice/blob/main/images/Volvo%20logo.jpg" alt="Brand 3" height="600" width="600" class="portfolio-gallery__brand">
-            <img src="https://github.com/Cypher-star-dev/Practice/blob/main/images/Maserati%20logo.jpg" alt="Brand 4" height="600" width="600" class="portfolio-gallery__brand">
+            <img src="https://github.com/Cypher-star-dev/Practice/blob/main/images/Subaru%20WRX%20logo.jpg"
+                alt="Brand 1" height="600" width="600" class="portfolio-gallery__brand">
+            <img src="https://github.com/Cypher-star-dev/Practice/blob/main/images/Mitsubishi%20logo.jpg" alt="Brand 2"
+                height="600" width="600" class="portfolio-gallery__brand">
+            <img src="https://github.com/Cypher-star-dev/Practice/blob/main/images/Volvo%20logo.jpg" alt="Brand 3"
+                height="600" width="600" class="portfolio-gallery__brand">
+            <img src="https://github.com/Cypher-star-dev/Practice/blob/main/images/Maserati%20logo.jpg" alt="Brand 4"
+                height="600" width="600" class="portfolio-gallery__brand">
         </div>
-    </section>
+    </section> -->
 
     <!-- Footers Section -->
     <footer class="footer">
@@ -233,11 +258,12 @@
             <div class="footer__contacts">
                 <span class="footer__contact"><i class="footer__icon footer__icon--phone"></i> +12 345 678 900</span>
                 <span class="footer__contact"><i class="footer__icon footer__icon--mail"></i> info@example.com</span>
-                <span class="footer__contact"><i class="footer__icon footer__icon--location"></i> 208 Avenue street, UK - 62617.</span>
+                <span class="footer__contact"><i class="footer__icon footer__icon--location"></i> 208 Avenue street, UK
+                    - 62617.</span>
             </div>
         </div>
         <div class="footer__bottom">
-            
+
             <span class="footer__copyright">© 2025 UI Portfolio. All Rights Reserved</span>
             <div class="footer__socials">
                 <a href="#" class="footer__social footer__social--twitter"></a>
@@ -250,4 +276,5 @@
     </footer>
 
 </body>
+
 </html>
